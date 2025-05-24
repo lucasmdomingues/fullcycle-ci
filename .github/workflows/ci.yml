@@ -2,7 +2,7 @@ name: ci-golang-workflow
 on: [ push ]
 jobs:
   check-app:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
